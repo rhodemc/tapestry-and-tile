@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.projects img {
+    width: 100%;
+}
+
 /* color */
 .bg-primary {
         background: #0F172A;
