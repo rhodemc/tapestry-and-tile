@@ -7,14 +7,14 @@ const Header = () => {
     const handleToggle = () => setToggle(!toggle);
 
     return (
-        <header className="flex justify-between px-5 py-2 bg-primary text-white">
+        <header className="flex justify-between px-5 py-2 bg-primary text-white sticky top-0">
             <a href="/" className="logo text-2xl font-bold text-accent">RHODEMC</a>
 
             {/* Desktop Nav */}
             <nav className="hidden md:block">
                 <ul className="flex">
                     <li><a href="/#">About Me</a></li>
-                    <li><a href="/#projects">Projects</a></li>
+                    <li><a href="/#portfolio">Portfolio</a></li>
                     <li><a href="/#contact">Contact</a></li>
                     <li><a href="/#resume">Resume</a></li>
                 </ul>
@@ -28,7 +28,7 @@ const Header = () => {
             }>
                 <ul className="flex flex-col">
                     <li><a href="/#">About Me</a></li>
-                    <li><a href="/#projects">Projects</a></li>
+                    <li><a href="/#portfolio">Projects</a></li>
                     <li><a href="/#contact">Contact</a></li>
                     <li><a href="/#resume">Resume</a></li>
                 </ul>
