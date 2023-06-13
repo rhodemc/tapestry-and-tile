@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tapestry-and-tile/static/css/main.5fd9048d.css",
+    "main.js": "/tapestry-and-tile/static/js/main.2e2d53fc.js",
+    "static/media/rhodemc-img.jpeg": "/tapestry-and-tile/static/media/rhodemc-img.b540fe492f8cf76c3ce4.jpeg",
+    "static/media/tacod.jpg": "/tapestry-and-tile/static/media/tacod.b360a1a5e44ee7999615.jpg",
+    "static/media/concert-compass.jpg": "/tapestry-and-tile/static/media/concert-compass.3306ad0bfe5994d00777.jpg",
+    "index.html": "/tapestry-and-tile/index.html",
+    "main.5fd9048d.css.map": "/tapestry-and-tile/static/css/main.5fd9048d.css.map",
+    "main.2e2d53fc.js.map": "/tapestry-and-tile/static/js/main.2e2d53fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fd9048d.css",
+    "static/js/main.2e2d53fc.js"
+  ]
+}
