@@ -1,5 +1,5 @@
 import React from "react";
-import RhodemcImg from "../assets/images/rhodemc-img.jpeg";
+import RhodemcImg from "../../assets/images/rhodemc-img.jpeg";
 
 
 const About = () => {
@@ -24,7 +24,7 @@ const About = () => {
                     {/* <button className="btn bg-accent border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent">See Projects</button> */}
                 </div>
                 <div className="rhodemc-img">
-                    <img src={ RhodemcImg } alt="An image of Matt Rhodes" className="lgw-[80%] ml-auto" />
+                    <img src={ RhodemcImg } alt="Matt Rhodes" className="lgw-[80%] ml-auto" />
                 </div>
             </div>
         </section>

@@ -8,19 +8,19 @@
 
 /* color */
 .bg-primary {
-        background: #0F172A;
+        background: #32292F;
 }
     
 .bg-secondary {
-        background: #1E293B;
+        background: #705D56;
 }
     
 .bg-accent {
-        background: #7477FF;
+        background: #705D56;
 }
     
 .text-accent {
-        color: #7477FF;
+        color: #70ABAF;
 } 
 
 nav li a {
@@ -28,7 +28,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #7477FF;
+    color: #70ABAF;
 }
 
 .mobile-nav {
