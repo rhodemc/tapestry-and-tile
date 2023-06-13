@@ -24,9 +24,9 @@ To use my portfolio, follow the links in the navbar to the different sections of
 
 Future updates will include a footer with links to linkedin, github, and email, hover effects over the portfolio links and working links.
 
-![Tapestry and Tile - A React Portfolio](/client/src/images/tapestry-and-tile.png)
+![Tapestry and Tile - A React Portfolio](./src/assets/images/tapestry-and-tile.png)
 
-[This is an external link to 'Tapestry and Tile' hosted on Github Pages]()
+[This is an external link to 'Tapestry and Tile' hosted on Github Pages](https://rhodemc.github.io/tapestry-and-tile/)
 
 ## Credits
 
