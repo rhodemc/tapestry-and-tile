@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-const Header = () => {
+const Header = ({ currentPage, handlePageChange }) => {
     const [toggle, setToggle] = useState(false);
 
     const handleToggle = () => setToggle(!toggle);
@@ -13,10 +13,18 @@ const Header = () => {
             {/* Desktop Nav */}
             <nav className="hidden md:block">
                 <ul className="flex">
-                    <li><a href="/#">About Me</a></li>
-                    <li><a href="/#portfolio">Portfolio</a></li>
-                    <li><a href="/#contact">Contact</a></li>
-                    <li><a href="/#resume">Resume</a></li>
+                    <li><a href="#about"
+                    onClick={() => handlePageChange('About')}
+                    className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About Me</a></li>
+                    <li><a href="#portfolio"
+                    onClick={() => handlePageChange('Portfolio')}
+                    className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a></li>
+                    <li><a href="#contact"
+                    onClick={() => handlePageChange('Contact')}
+                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a></li>
+                    <li><a href="#resume"
+                    onClick={() => handlePageChange('Resume')}
+                    className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a></li>
                 </ul>
             </nav>
 

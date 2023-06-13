@@ -10,7 +10,7 @@ const Resume = () => {
                         </h2>
                         <div className="flex py-5">
                             <a
-                                href="#"
+                                href="https://docs.google.com/document/d/1OvSbJbvXuFsOQGs6wbyVtL-UZaZga6J8/edit?usp=sharing&ouid=109960346767928411622&rtpof=true&sd=true"
                                 className="pr-4 inline-block text-accent hover:text-white"
                                 >Here's a link to my resume!</a>
                         </div>

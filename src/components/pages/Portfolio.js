@@ -1,6 +1,6 @@
 import React from 'react'
-import ConcertCompass from '../assets/images/concert-compass.jpg'
-import Tacod from '../assets/images/tacod.jpg'
+import ConcertCompass from '../../assets/images/concert-compass.jpg'
+import Tacod from '../../assets/images/tacod.jpg'
 
 const Portfolio = () => {
     // const projects = [...];
@@ -18,33 +18,33 @@ const Portfolio = () => {
 
             <div className="projects container mx-auto grid md:grid-cols-3 gap-10">
                 <div>
-                    <a href="ch3rnand3z.github.io/Concert-Compass">
-                        <img src={ ConcertCompass } alt="An image of Concert Compass" />
+                    <a href="http://www.ch3rnand3z.github.io/Concert-Compass">
+                        <img src={ ConcertCompass } alt="Concert Compass" />
+                    </a>
+                </div>
+                <div>
+                    <a href="tacod.herokuapp.com">
+                        <img src={ Tacod } alt="Tacod" />
                     </a>
                 </div>
                 <div>
                     <a href="ch3rnand3z.github.io/Concert-Compass">
-                        <img src={ ConcertCompass } alt="An image of Concert Compass" />
+                        <img src={ ConcertCompass } alt="" />
                     </a>
                 </div>
                 <div>
                     <a href="ch3rnand3z.github.io/Concert-Compass">
-                        <img src={ ConcertCompass } alt="An image of Concert Compass" />
+                        <img src={ ConcertCompass } alt="" />
                     </a>
                 </div>
                 <div>
                     <a href="ch3rnand3z.github.io/Concert-Compass">
-                        <img src={ ConcertCompass } alt="An image of Concert Compass" />
+                        <img src={ ConcertCompass } alt="" />
                     </a>
                 </div>
                 <div>
                     <a href="ch3rnand3z.github.io/Concert-Compass">
-                        <img src={ ConcertCompass } alt="An image of Concert Compass" />
-                    </a>
-                </div>
-                <div>
-                    <a href="ch3rnand3z.github.io/Concert-Compass">
-                        <img src={ ConcertCompass } alt="An image of Concert Compass" />
+                        <img src={ ConcertCompass } alt="" />
                     </a>
                 </div>
             </div>
