@@ -18,12 +18,12 @@ const Portfolio = () => {
 
             <div className="projects container mx-auto grid md:grid-cols-3 gap-10">
                 <div>
-                    <a href="http://www.ch3rnand3z.github.io/Concert-Compass">
+                    <a href="https://ch3rnand3z.github.io/Concert-Compass/">
                         <img src={ ConcertCompass } alt="Concert Compass" />
                     </a>
                 </div>
                 <div>
-                    <a href="tacod.herokuapp.com">
+                    <a href="https://tacod.herokuapp.com">
                         <img src={ Tacod } alt="Tacod" />
                     </a>
                 </div>
